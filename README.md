@@ -12,62 +12,73 @@ Example output when running bin/benchmark.dart in release mode:
 
 ```
 Benchmarking json map with nesting level level 0
-DeepCollectionEquality:       25μs     4.86x
+
+DeepCollectionEquality:       25μs     4.81x
 json_equals           :        5μs     1.00x
-json_encode           :       28μs     5.49x
-deep_equality         :        6μs     1.20x
-================
+json_encode           :       28μs     5.39x
+deep_equality         :        6μs     1.19x
+================================================================================
 Benchmarking json map with nesting level level 1
-DeepCollectionEquality:      148μs    11.24x
-json_equals           :       13μs     1.00x
-json_encode           :       66μs     5.00x
-deep_equality         :       15μs     1.15x
-================
+
+DeepCollectionEquality:      147μs    12.22x
+json_equals           :       12μs     1.00x
+json_encode           :       59μs     4.93x
+deep_equality         :       14μs     1.19x
+================================================================================
 Benchmarking json map with nesting level level 2
-DeepCollectionEquality:      778μs    25.68x
-json_equals           :       35μs     1.16x
-json_encode           :      129μs     4.25x
-deep_equality         :       30μs     1.00x
-================
+
+DeepCollectionEquality:      681μs    27.02x
+json_equals           :       25μs     1.00x
+json_encode           :      126μs     4.99x
+deep_equality         :       30μs     1.20x
+================================================================================
 Benchmarking json map with nesting level level 3
-DeepCollectionEquality:     2975μs    56.24x
-json_equals           :       53μs     1.00x
-json_encode           :      267μs     5.05x
-deep_equality         :       64μs     1.21x
-================
+
+DeepCollectionEquality:     3068μs    59.41x
+json_equals           :       52μs     1.00x
+json_encode           :      267μs     5.16x
+deep_equality         :       69μs     1.33x
+================================================================================
 Benchmarking json map with nesting level level 4
-DeepCollectionEquality:    12246μs   103.89x
-json_equals           :      118μs     1.00x
-json_encode           :      562μs     4.76x
-deep_equality         :      141μs     1.20x
-================
+
+DeepCollectionEquality:    12346μs   116.90x
+json_equals           :      106μs     1.00x
+json_encode           :      544μs     5.15x
+deep_equality         :      126μs     1.19x
+================================================================================
 Benchmarking json map with nesting level level 5
-DeepCollectionEquality:    53334μs   236.07x
-json_equals           :      226μs     1.00x
-json_encode           :     1086μs     4.81x
-deep_equality         :      255μs     1.13x
-================
+
+DeepCollectionEquality:    51632μs   242.06x
+json_equals           :      213μs     1.00x
+json_encode           :     1088μs     5.10x
+deep_equality         :      252μs     1.18x
+================================================================================
 Benchmarking json map with nesting level level 6
-DeepCollectionEquality:   198532μs   429.53x
-json_equals           :      462μs     1.00x
-json_encode           :     2201μs     4.76x
-deep_equality         :      548μs     1.19x
-================
+
+DeepCollectionEquality:   199651μs   467.35x
+json_equals           :      427μs     1.00x
+json_encode           :     2215μs     5.18x
+deep_equality         :      509μs     1.19x
+================================================================================
 Benchmarking json map with nesting level level 7
-DeepCollectionEquality:   815381μs   927.66x
-json_equals           :      879μs     1.00x
-json_encode           :     4428μs     5.04x
-deep_equality         :     1034μs     1.18x
-================
+
+DeepCollectionEquality:   797276μs   921.68x
+json_equals           :      865μs     1.00x
+json_encode           :     4415μs     5.10x
+deep_equality         :     1013μs     1.17x
+================================================================================
 Benchmarking json map with nesting level level 8
-DeepCollectionEquality:  3315974μs  1872.99x
-json_equals           :     1770μs     1.00x
-json_encode           :     9014μs     5.09x
-deep_equality         :     2119μs     1.20x
-================
+
+DeepCollectionEquality:  3199949μs  1867.20x
+json_equals           :     1714μs     1.00x
+json_encode           :     8412μs     4.91x
+deep_equality         :     2040μs     1.19x
+================================================================================
 Benchmarking json map with nesting level level 9
-DeepCollectionEquality: 13004378μs  3710.51x
-json_equals           :     3505μs     1.00x
-json_encode           :    16883μs     4.82x
-deep_equality         :     4135μs     1.18x
+
+DeepCollectionEquality: 12801026μs  3716.82x
+json_equals           :     3444μs     1.00x
+json_encode           :    16495μs     4.79x
+deep_equality         :     4084μs     1.19x
+================================================================================
 ```
