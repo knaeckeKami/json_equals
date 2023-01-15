@@ -107,7 +107,7 @@ class BenchmarksPrinter {
       final result = entry.value;
       final resultString = result.toStringAsFixed(0).padLeft(8);
       final relative = (result / bestResult).toStringAsFixed(2).padLeft(8);
-      print('$name: ${resultString}μs ${relative}x');
+      print('$name: $resultStringμs ${relative}x');
     }
   }
 }
@@ -128,9 +128,9 @@ void main() {
       JsonEncodeBenchmark(json, copyJson),
       DeepEqualityBenchmark(json, copyJson),
     ];
-    print('Benchmarking json map with nesting level $key');
+    print('Benchmarking json map with nesting level $key\n');
     //print(JsonEncoder.withIndent(' ').convert(json));
     BenchmarksPrinter(benchmarks).run();
-    print('================');
+    print('=' * 80);
   }
 }
